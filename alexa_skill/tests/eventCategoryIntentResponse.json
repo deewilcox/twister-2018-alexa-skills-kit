@@ -1,0 +1,35 @@
+{
+  "version": "1.0",
+  "response": {
+    "outputSpeech": {
+      "text": "Cause for Paws on 2018-04-29 11:00:00 by Nashville Humane Society\n",
+      "type": "PlainText"
+    },
+    "card": {
+      "content": "Cause for Paws on 2018-04-29 11:00:00 by Nashville Humane Society\n",
+      "title": "How Can I Help? Events By Category"
+    },
+    "reprompt": {
+      "outputSpeech": {
+        "text": "",
+        "type": "PlainText"
+      }
+    },
+    "speechletResponse": {
+      "outputSpeech": {
+        "text": "Cause for Paws on 2018-04-29 11:00:00 by Nashville Humane Society\n"
+      },
+      "card": {
+        "content": "Cause for Paws on 2018-04-29 11:00:00 by Nashville Humane Society\n",
+        "title": "How Can I Help? Events By Category"
+      },
+      "reprompt": {
+        "outputSpeech": {
+          "text": ""
+        }
+      },
+      "shouldEndSession": false
+    }
+  },
+  "sessionAttributes": {}
+}

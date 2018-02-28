@@ -1,0 +1,15 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "title": "Events",
+  "type": "object",
+  "properties": {
+    "id": { "type": "number"},
+    "category": { "type": "string" },
+    "description": { "type": "string" },
+    "event_date_time": { "type": "string" },
+    "organization": {"type": "string"},
+    "contact_name": { "type": "string" },
+    "contact_email": { "type": "string" },
+    "opportunities": { "type": "string" }
+  }
+}

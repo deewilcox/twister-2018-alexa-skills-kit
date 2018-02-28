@@ -1,0 +1,84 @@
+# POST Request (raw JSON payload)
+{
+  "operation": "read",
+  "tableName": "Events",
+  "payload": {
+    "Key": {
+      "id": 6,
+      "category": "Kids"
+    }
+  }
+}
+
+# Response
+{
+    "Item": {
+        "id": 6,
+        "category": "Kids"
+    },
+    "ResponseMetadata": {
+        "RequestId": "your_request_id",
+        "HTTPStatusCode": 200,
+        "HTTPHeaders": {
+            "server": "Server",
+            "date": "Sat, 17 Feb 2018 06:19:49 GMT",
+            "content-type": "application/x-amz-json-1.0",
+            "content-length": "49",
+            "connection": "keep-alive",
+            "x-amzn-requestid": "[your_request_id]",
+            "x-amz-crc32": "1097542597"
+        },
+        "RetryAttempts": 0
+    }
+}
+
+# POST Request (raw JSON payload)
+{
+  "operation": "list",
+  "tableName": "Categories",
+  "payload": {
+    "TableName": "Categories"
+  }
+}
+
+# Response
+{
+    "Items": [
+        {
+            "description": "Kids",
+            "id": 3
+        },
+        {
+            "description": "Homeless",
+            "id": 2
+        },
+        {
+            "description": "Hunger",
+            "id": 4
+        },
+        {
+            "description": "Community",
+            "id": 1
+        },
+        {
+            "description": "Animals",
+            "id": 5
+        }
+    ],
+    "Count": 5,
+    "ScannedCount": 5,
+    "ResponseMetadata": {
+        "RequestId": "[your_request_id]",
+        "HTTPStatusCode": 200,
+        "HTTPHeaders": {
+            "server": "Server",
+            "date": "Sat, 17 Feb 2018 06:27:38 GMT",
+            "content-type": "application/x-amz-json-1.0",
+            "content-length": "272",
+            "connection": "keep-alive",
+            "x-amzn-requestid": "[your_request_id]",
+            "x-amz-crc32": "1052254516"
+        },
+        "RetryAttempts": 0
+    }
+}

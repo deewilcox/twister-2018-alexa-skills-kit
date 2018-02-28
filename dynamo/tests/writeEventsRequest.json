@@ -1,0 +1,17 @@
+{
+  "operation": "create",
+  "tableName": "Events",
+  "payload": {
+    "Item": {
+      "id": 12345,
+      "name": "TWISTER",
+      "description": "STEAM Conference for Girls in Middle Tennessee",
+      "date": "2018-02-17",
+      "start-time": "08:00:00",
+      "end-time": "16:00:00",
+      "contact_name": "Lacey",
+      "contact_email": "info@adventuresci.org",
+      "opportunities": "Volunteer, Present, Attend, Promote, Donate, Sponsor"
+    }
+  }
+}

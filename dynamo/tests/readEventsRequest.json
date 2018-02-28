@@ -1,0 +1,10 @@
+{
+  "operation": "read",
+  "tableName": "Events",
+  "payload": {
+    "Key": {
+      "id": 12345,
+      "name": "TWISTER"
+    }
+  }
+}

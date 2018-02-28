@@ -1,0 +1,35 @@
+{
+  "version": "1.0",
+  "response": {
+    "outputSpeech": {
+      "text": "Welcome to the Alexa How Can I Help? skill. Let's do something good together. You can ask me for event categories, or ask me for events by category or events by date.",
+      "type": "PlainText"
+    },
+    "card": {
+      "content": "Welcome to the Alexa How Can I Help? skill. Let's do something good together. You can ask me for event categories, or ask me for events by category or events by date.",
+      "title": "How Can I Help?"
+    },
+    "reprompt": {
+      "outputSpeech": {
+        "text": "Please ask me for an event category, for example, you can say, What are the categories?",
+        "type": "PlainText"
+      }
+    },
+    "speechletResponse": {
+      "outputSpeech": {
+        "text": "Welcome to the Alexa How Can I Help? skill. Let's do something good together. You can ask me for event categories, or ask me for events by category or events by date."
+      },
+      "card": {
+        "content": "Welcome to the Alexa How Can I Help? skill. Let's do something good together. You can ask me for event categories, or ask me for events by category or events by date.",
+        "title": "How Can I Help?"
+      },
+      "reprompt": {
+        "outputSpeech": {
+          "text": "Please ask me for an event category, for example, you can say, What are the categories?"
+        }
+      },
+      "shouldEndSession": false
+    }
+  },
+  "sessionAttributes": {}
+}

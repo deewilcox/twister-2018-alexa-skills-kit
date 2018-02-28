@@ -1,0 +1,40 @@
+{
+  "operation": "read",
+  "tableName": "Events",
+  "payload": {
+    "Key": {
+      "id": 12345,
+      "name": "TWISTER"
+    }
+  }
+}
+
+{
+  "operation": "read",
+  "tableName": "Events",
+  "payload": {
+    "Key": {
+      "category": "Food"
+    }
+  }
+}
+
+{
+  "operation": "read",
+  "tableName": "Events",
+  "payload": {
+    "Key": {
+      "category": "Community"
+    }
+  }
+}
+
+{
+  "operation": "read",
+  "tableName": "Category",
+  "payload": {
+    "Key": {
+      "description": "Education"
+    }
+  }
+}

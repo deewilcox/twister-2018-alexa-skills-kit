@@ -1,0 +1,14 @@
+{
+  "operation": "create",
+  "tableName": "Events",
+  "payload": {
+    "Item": {
+      "id": 6,
+      "category": "Kids",
+      "organization": "Hack for Community",
+      "description": "HCA Hack for Community",
+      "event_date_time": "2018-04-12 08:00:00",
+      "opportunities": "Volunteer, Promote, Sponsor"
+    }
+  }
+}

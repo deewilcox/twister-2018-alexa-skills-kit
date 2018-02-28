@@ -1,0 +1,22 @@
+{
+  "version": "1.0",
+  "sessionAttributes": {},
+  "response": {
+    "outputSpeech": {
+      "type": "PlainText",
+      "text": "Here are the categories you can help with: Kids \nHomeless \nHunger \nCommunity \nAnimals \n n\\ "
+    },
+    "card": {
+      "type": "Simple",
+      "title": "How Can I Help? Categories",
+      "content": "Here are the categories you can help with: Kids \nHomeless \nHunger \nCommunity \nAnimals \n n\\ "
+    },
+    "reprompt": {
+      "outputSpeech": {
+        "type": "PlainText",
+        "text": "Would you like to help with one of these categories? You can say, I want to help with animals."
+      }
+    },
+    "shouldEndSession": false
+  }
+}

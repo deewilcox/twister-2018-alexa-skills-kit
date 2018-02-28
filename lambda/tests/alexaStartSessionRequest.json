@@ -1,0 +1,46 @@
+{
+  "session": {
+    "new": true,
+    "sessionId": "SessionId.[your_session_id]",
+    "attributes": {},
+    "user": {
+      "userId": "[your_user_id]"
+    },
+    "application": {
+      "applicationId": "[your_application_id]"
+    }
+  },
+  "version": "1.0",
+  "request": {
+    "locale": "en-US",
+    "timestamp": "2016-10-27T18:21:44Z",
+    "type": "LaunchRequest",
+    "requestId": "amzn1.echo-api.request.[unique-value-here]",
+    "operation": "read",
+    "tableName": "Events",
+    "payload": {
+      "Key": {
+        "id": 12345,
+        "name": "TWISTER"
+      }
+    }
+  },
+  "context": {
+    "AudioPlayer": {
+      "playerActivity": "IDLE"
+    },
+    "System": {
+      "device": {
+        "supportedInterfaces": {
+          "AudioPlayer": {}
+        }
+      },
+      "application": {
+        "applicationId": "[your_application_id]"
+      },
+      "user": {
+        "userId": "[your_user_id]"
+      }
+    }
+  }
+}

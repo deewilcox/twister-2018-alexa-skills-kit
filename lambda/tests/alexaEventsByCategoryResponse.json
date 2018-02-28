@@ -1,0 +1,22 @@
+{
+  "version": "1.0",
+  "sessionAttributes": {},
+  "response": {
+    "outputSpeech": {
+      "type": "PlainText",
+      "text": "Women's Campus Breakfast Kitchen Volunteer  on 2018-02-20 07:00:00 by Nashville Rescue Mission\nMen's Campus Breakfast Kitchen Volunteer  on 2018-02-20 07:00:00 by Nashville Rescue Mission\n"
+    },
+    "card": {
+      "type": "Simple",
+      "title": "How Can I Help? Events By Category",
+      "content": "Women's Campus Breakfast Kitchen Volunteer  on 2018-02-20 07:00:00 by Nashville Rescue Mission\nMen's Campus Breakfast Kitchen Volunteer  on 2018-02-20 07:00:00 by Nashville Rescue Mission\n"
+    },
+    "reprompt": {
+      "outputSpeech": {
+        "type": "PlainText",
+        "text": ""
+      }
+    },
+    "shouldEndSession": false
+  }
+}

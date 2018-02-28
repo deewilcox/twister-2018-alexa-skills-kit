@@ -1,0 +1,444 @@
+{
+  "languageModel": {
+    "types": [
+      {
+        "name": "AMAZON.Country",
+        "values": [
+          {
+            "id": null,
+            "name": {
+              "value": "United States",
+              "synonyms": [
+                "US",
+                "USA"
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "name": "AMAZON.DayOfWeek",
+        "values": [
+          {
+            "id": null,
+            "name": {
+              "value": "Monday",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Tuesday",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Wednesday",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Thursday",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Friday",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Saturday",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Sunday",
+              "synonyms": []
+            }
+          }
+        ]
+      },
+      {
+        "name": "AMAZON.Organization",
+        "values": [
+          {
+            "id": null,
+            "name": {
+              "value": "Hands On Nashville",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Lightning 100",
+              "synonyms": [
+                "Lightning One Hundred"
+              ]
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Team Green",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Martha O'Bryan Center",
+              "synonyms": [
+                "MOBC"
+              ]
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Second Harvest",
+              "synonyms": [
+                "2nd Harvest"
+              ]
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Nashville Rescue Mission",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Gilda Glub",
+              "synonyms": []
+            }
+          }
+        ]
+      },
+      {
+        "name": "AMAZON.US_CITY",
+        "values": [
+          {
+            "id": null,
+            "name": {
+              "value": "Nashville",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Madison",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Goodlettesville",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Gallatin",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Whites Creek",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Brentwood",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Antioch",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Old Hickory",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Bellevue",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Belle Meade",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Hendersonville",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Cool Springs",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Franklin",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Murfreesboro",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Columbia",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Smyrna",
+              "synonyms": []
+            }
+          }
+        ]
+      },
+      {
+        "name": "AMAZON.US_STATE",
+        "values": [
+          {
+            "id": null,
+            "name": {
+              "value": "Tennessee",
+              "synonyms": [
+                "TN"
+              ]
+            }
+          }
+        ]
+      }
+    ],
+    "intents": [
+      {
+        "name": "AMAZON.AddAction<object@Event>"
+      },
+      {
+        "name": "AMAZON.CancelIntent",
+        "samples": [
+          "I don't want to help",
+          "Stop",
+          "Nevermind"
+        ]
+      },
+      {
+        "name": "AMAZON.ChooseAction<object@Event>"
+      },
+      {
+        "name": "AMAZON.DeleteAction<object@Event>"
+      },
+      {
+        "name": "AMAZON.HelpIntent",
+        "samples": [
+          "Help"
+        ]
+      },
+      {
+        "name": "AMAZON.SearchAction<object@Calendar>"
+      },
+      {
+        "name": "AMAZON.SearchAction<object@Event>"
+      },
+      {
+        "name": "AMAZON.SearchAction<object@Event[eventStatus]>"
+      },
+      {
+        "name": "AMAZON.SearchAction<object@Event[location]>"
+      },
+      {
+        "name": "AMAZON.SearchAction<object@Event[startDate]>"
+      },
+      {
+        "name": "AMAZON.StopIntent",
+        "samples": [
+          "Stop",
+          "Cancel",
+          "I don't want to help"
+        ]
+      },
+      {
+        "name": "GetCategories",
+        "samples": [
+          "What are the categories",
+          "What can I help with",
+          "How can I help",
+          "What are the event categories"
+        ],
+        "slots": []
+      },
+      {
+        "name": "GetEventsByCategory",
+        "samples": [
+          "What can I do to help {Category}",
+          "How can I help with {Category} "
+        ],
+        "slots": [
+          {
+            "name": "Category",
+            "type": "AMAZON.EventType",
+            "samples": [
+              "{Category}"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "GetEventsByDate",
+        "samples": [
+          "What can I help with on {Date}",
+          "What can I help with on {Day}"
+        ],
+        "slots": [
+          {
+            "name": "Day",
+            "type": "AMAZON.DayOfWeek",
+            "samples": [
+              "{Day}"
+            ]
+          },
+          {
+            "name": "Date",
+            "type": "AMAZON.DATE"
+          }
+        ]
+      }
+    ],
+    "invocationName": "how can i help"
+  },
+  "prompts": [
+    {
+      "id": "Elicit.Intent-GetEventsByCategory.IntentSlot-Category",
+      "variations": [
+        {
+          "type": "PlainText",
+          "value": "What category would you like?"
+        }
+      ]
+    },
+    {
+      "id": "Confirm.Intent-GetEventsByCategory.IntentSlot-Category",
+      "variations": [
+        {
+          "type": "PlainText",
+          "value": "Did you say {Category}"
+        }
+      ]
+    },
+    {
+      "id": "Elicit.Intent-GetEventsByDate.IntentSlot-Day",
+      "variations": [
+        {
+          "type": "PlainText",
+          "value": "What day would you like?"
+        }
+      ]
+    },
+    {
+      "id": "Confirm.Intent-GetEventsByDate.IntentSlot-Day",
+      "variations": [
+        {
+          "type": "PlainText",
+          "value": "Did you say {Day}"
+        }
+      ]
+    }
+  ],
+  "dialog": {
+    "intents": [
+      {
+        "name": "GetEventsByCategory",
+        "confirmationRequired": false,
+        "prompts": {},
+        "slots": [
+          {
+            "name": "Category",
+            "type": "AMAZON.EventType",
+            "elicitationRequired": true,
+            "confirmationRequired": true,
+            "prompts": {
+              "elicitation": "Elicit.Intent-GetEventsByCategory.IntentSlot-Category",
+              "confirmation": "Confirm.Intent-GetEventsByCategory.IntentSlot-Category"
+            }
+          }
+        ]
+      },
+      {
+        "name": "GetEventsByDate",
+        "confirmationRequired": false,
+        "prompts": {},
+        "slots": [
+          {
+            "name": "Day",
+            "type": "AMAZON.DayOfWeek",
+            "elicitationRequired": true,
+            "confirmationRequired": true,
+            "prompts": {
+              "elicitation": "Elicit.Intent-GetEventsByDate.IntentSlot-Day",
+              "confirmation": "Confirm.Intent-GetEventsByDate.IntentSlot-Day"
+            }
+          },
+          {
+            "name": "Date",
+            "type": "AMAZON.DATE",
+            "elicitationRequired": false,
+            "confirmationRequired": false,
+            "prompts": {}
+          }
+        ]
+      }
+    ]
+  }
+}

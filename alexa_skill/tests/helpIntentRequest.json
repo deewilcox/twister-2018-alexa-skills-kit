@@ -1,0 +1,36 @@
+{
+  "session": {
+    "new": true,
+    "sessionId": "SessionId.[your_session_id]",
+    "application": {
+      "applicationId": "[your_application_id]"
+    },
+    "attributes": {},
+    "user": {
+      "userId": "[your_user_id]"
+    }
+  },
+  "request": {
+    "type": "LaunchRequest",
+    "requestId": "EdwRequestId.[your_request_id]",
+    "locale": "en-US",
+    "timestamp": "2018-02-16T19:55:50Z"
+  },
+  "context": {
+    "AudioPlayer": {
+      "playerActivity": "IDLE"
+    },
+    "System": {
+      "application": {
+        "applicationId": "[your_application_id]"
+      },
+      "user": {
+        "userId": "[your_user_id]"
+      },
+      "device": {
+        "supportedInterfaces": {}
+      }
+    }
+  },
+  "version": "1.0"
+}

@@ -1,0 +1,9 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "title": "Categories",
+  "type": "object",
+  "properties": {
+    "id": { "type": "number"},
+    "description": { "type": "string" }
+  }
+}

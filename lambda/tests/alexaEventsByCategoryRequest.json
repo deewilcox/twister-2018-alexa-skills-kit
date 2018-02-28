@@ -1,0 +1,45 @@
+{
+  "session": {
+    "new": false,
+    "sessionId": "SessionId.[your_session_id]",
+    "application": {
+      "applicationId": "[your_application_id]"
+    },
+    "attributes": {},
+    "user": {
+      "userId": "[your_user_id]"
+    }
+  },
+  "request": {
+    "type": "IntentRequest",
+    "requestId": "EdwRequestId.[your_request_id]",
+    "intent": {
+      "name": "GetEventsByCategory",
+      "slots": {
+        "Category": {
+          "name": "Category",
+          "value": "homeless"
+        }
+      }
+    },
+    "locale": "en-US",
+    "timestamp": "2018-02-13T23:29:07Z"
+  },
+  "context": {
+    "AudioPlayer": {
+      "playerActivity": "IDLE"
+    },
+    "System": {
+      "application": {
+        "applicationId": "[your_application_id]"
+      },
+      "user": {
+        "userId": "[your_user_id]"
+      },
+      "device": {
+        "supportedInterfaces": {}
+      }
+    }
+  },
+  "version": "1.0"
+}

@@ -1,0 +1,20 @@
+{
+  "Item": {
+    "id": 6,
+    "category": "Kids"
+  },
+  "ResponseMetadata": {
+    "RequestId": "[your_request_id]",
+    "HTTPStatusCode": 200,
+    "HTTPHeaders": {
+      "server": "Server",
+      "date": "Fri, 16 Feb 2018 20:52:57 GMT",
+      "content-type": "application/x-amz-json-1.0",
+      "content-length": "49",
+      "connection": "keep-alive",
+      "x-amzn-requestid": "[your_request_id]",
+      "x-amz-crc32": "1097542597"
+    },
+    "RetryAttempts": 0
+  }
+}
